@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { SectionTilesProps } from '../../utils/SectionProps';
+import { SectionTilesProps } from '../react-simple-maps-master/utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 

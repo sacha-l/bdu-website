@@ -1,9 +1,9 @@
 
-import React, { useContext } from "react"
-import PropTypes from "prop-types"
+import React, { useContext } from "react";
+import PropTypes from "prop-types";
 
-import { MapContext } from "/react-simple-maps-master/components/MapProvider"
-import { createConnectorPath } from "/react-simple-maps-master/src/utils"
+import { MapContext } from "./MapProvider";
+import { createConnectorPath } from "../utils";
 
 const Annotation = ({
   subject,
