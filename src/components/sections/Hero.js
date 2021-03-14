@@ -60,34 +60,29 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Learn
-            </h1>
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="800">        
-            <span className="text-color-light"> and </span>
-            </h1>
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="1400">
-            <span className="text-color-primary" > Earn </span>
+            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="140">
+              Blockchain Developers United
             </h1>
 
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="4800">
-                Earn cash by completing tutorials and learning new things.
-                </p>
-              <div className="reveal-from-bottom" data-reveal-delay="2650">
+              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="140">
+              BDU is a decentralized network of blockchain developer communities aiming to bring blockchain developers of all skill levels to train, share resources and collaborate together.
+              </p>
+              <div className="reveal-from-bottom" data-reveal-delay="1000">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://bdu.dev/">
-                    Get started
+                  <Button tag="a" color="primary" wideMobile href="#about-bdu">
+                    Learn More
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/BlockDevsUnited">
-                    View on Github
+                    Litepaper
                     </Button>
                 </ButtonGroup>
               </div>
             </div>
           </div>
-          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
+          {/* //TODO: REPLACE STOCK IMAGE WITH REAL MAP FROM "REACT-SIMPLE-MAPS" */}
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <a
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"
               aria-controls="video-modal"
@@ -106,7 +101,7 @@ const Hero = ({
             show={videoModalActive}
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" /> */}
+            videoTag="iframe" />
         </div>
       </div>
     </section>

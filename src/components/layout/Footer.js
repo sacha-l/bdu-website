@@ -39,10 +39,10 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
-          {/* <div className="footer-top space-between text-xxs">
+          <div className="footer-top space-between text-xxs">
             <Logo />
-            <FooterSocial />
-          </div> */}
+            <FooterSocial/>
+          </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
             <div className="footer-copyright">Thank you <a href="https://cruip.com">Cruip</a> for the template.</div>

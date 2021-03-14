@@ -3,8 +3,9 @@ import React from 'react';
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
-import Testimonial from '../components/sections/Testimonial';
+import About from '../components/sections/About';
 import Cta from '../components/sections/Cta';
+import Devcash from '../components/sections/Devcash';
 
 const Home = () => {
 
@@ -13,9 +14,10 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
-      <Testimonial topDivider /> 
-      {/* <FeaturesTiles /> */}
-      {/* <Cta split />  */}
+      <About topDivider /> 
+      <FeaturesTiles /> 
+      <Devcash />
+      <Cta split /> 
     </>
   );
 }

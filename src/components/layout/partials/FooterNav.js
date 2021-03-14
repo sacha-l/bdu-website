@@ -19,9 +19,10 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://t.me/joinchat/GbOgYo4HHeZNzyBM">Join us on Telegram</a>
+           {/* TODO: Update link here*/}
+          <a href="https://t.me/joinchat/GbOgYo4HHeZNzyBM">Join the Community</a>
         </li>
-        {/* <li>
+        <li>
           <Link to="#0">About us</Link>
         </li>
         <li>
@@ -29,7 +30,7 @@ const FooterNav = ({
         </li>
         <li>
           <Link to="#0">Support</Link>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );
