@@ -71,7 +71,7 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="1000">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="#about-bdu">
-                    Learn More
+                    Join Community
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/BlockDevsUnited">
                     Litepaper
