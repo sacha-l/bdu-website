@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
-import { SectionProps } from '../react-simple-maps-master/utils/SectionProps';
+import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
-import Annotation from '/home/alansky/Dev/BDU-website/learn-and-earn/src/components/react-simple-maps-master/components/Annotation.js'
-import MapChart from '../react-simple-maps-master/MeetupMap/MapChart';
 import "../styles.css";
 
 
@@ -84,28 +80,9 @@ const Hero = ({
               </div>
             </div>
           </div>
-          {/* //TODO: REPLACE STOCK IMAGE WITH REAL MAP FROM "REACT-SIMPLE-MAPS" */}
          <div> <br/> </div>
-          <div dclassName="reveal-from-bottom" data-reveal-delay="2000">
-          <MapChart />
-          </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-          <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              
-              
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
+         
+    
         </div>
       </div>
     </section>

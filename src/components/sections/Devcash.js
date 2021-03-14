@@ -1,8 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-import { SectionTilesProps } from '../react-simple-maps-master/utils/SectionProps';
+import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import { split } from 'lodash';
 import Image from '../../components/elements/Image'
 
 const propTypes = {
