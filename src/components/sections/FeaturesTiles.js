@@ -108,7 +108,7 @@ const FeaturesTiles = ({
                     Singapore, SG
                     </h4>
                     <p className="m-0 text-sm">
-                    <a href=" https://www.meetup.com/" >Join Meetup. </a>
+                    <a href=" https://www.meetup.com/Blockchain-Developers-United-Singapore/" >Join Meetup. </a>
                   </p>
                 <p>🌐</p>
                 </div>
@@ -123,10 +123,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Dehli, IN
+                    Tampa Bay, FL
                     </h4>
                     <p className="m-0 text-sm">
-                    <a href=" https://www.meetup.com/" >Join Meetup. </a>
+                    <a href="https://www.meetup.com/Tampa-Bay-Blockchain-Developers-Meetup/" >Join Meetup. </a>
                   </p>
                 <p>🌐</p>
                 </div>
