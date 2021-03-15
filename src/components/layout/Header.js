@@ -44,7 +44,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -66,7 +66,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -105,6 +105,8 @@ const Header = ({
                     'header-nav',
                     isActive && 'is-active'
                   )}>
+
+                {/* TODO: Fix routing here */}
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
@@ -112,16 +114,19 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Meetups</Link>
+                      <Link to="#meetups" onClick={closeMenu}>Meetups</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Devcash</Link>
+                      <Link to="#devcash" onClick={closeMenu}>Devcash</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Learn and Earn</Link>
+                      <Link to="#learnandearn" onClick={closeMenu}>Learn and Earn</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Past Events</Link>
+                      <Link to="#events" onClick={closeMenu}>Past Events</Link>
+                    </li>
+                    <li>
+                      <Link to="https://medium.com/blockchainedu/ben-and-bdu-unite-to-provide-more-resources-for-blockchain-developers-a49a68cb9d15" onClick={closeMenu}>Press</Link>
                     </li>
                   </ul>
                   {!hideSignin &&

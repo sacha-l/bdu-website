@@ -45,9 +45,8 @@ const About = ({
   );
 
   const sectionHeader = {
-    title: 'Abous Us',
+    title: 'About Us',
     paragraph: 'Blockchain Developers United is a decentralized network of blockchain developer communities, including both in-person meetup groups across the globe, and online only communities dedicated to specific technologies or interests. BDU member communities organize regular meetups that bring together blockchain developers of all skill levels to train, share resources and collaborate. Hands on training is emphasized in particular to teach developers how to really implement blockchain applications.',
-    middle: 'Mission'
   };
 
   return (

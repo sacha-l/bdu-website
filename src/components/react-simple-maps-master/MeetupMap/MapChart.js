@@ -8,7 +8,7 @@ import {
 import classNames from 'classnames';
 
 const geoUrl =
-  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-50m.json";
+  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
   const innerClasses = classNames(
     'hero-inner section-inner'
@@ -27,7 +27,7 @@ const MapChart = () => {
       <Geographies
         geography={geoUrl}
         fill="#3366cc"
-        stroke="#FFFFFF"
+        stroke="#645cfc"
         strokeWidth={0.5}
       >
         {({ geographies }) =>

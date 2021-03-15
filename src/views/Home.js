@@ -18,7 +18,7 @@ const Home = () => {
       <About topDivider /> 
       <FeaturesTiles /> 
       <Devcash />
-      <Cta split /> 
+      {/* <Cta split />  */}
     </>
   );
 }
