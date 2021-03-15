@@ -5,22 +5,28 @@ import {
   Geography,
   Annotation
 } from "react-simple-maps";
+import classNames from 'classnames';
 
 const geoUrl =
-  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
+  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-50m.json";
+
+  const innerClasses = classNames(
+    'hero-inner section-inner'
+  );
 
 const MapChart = () => {
   return (
+    
     <ComposableMap
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
-        rotate: [-20.0, -52.0, 0],
-        scale: 700
+        rotate: [-4.0, -8.0, 0],
+        scale: 90
       }}
     >
       <Geographies
         geography={geoUrl}
-        fill="#D6D6DA"
+        fill="#3366cc"
         stroke="#FFFFFF"
         strokeWidth={0.5}
       >
@@ -30,20 +36,98 @@ const MapChart = () => {
           ))
         }
       </Geographies>
-      <Annotation
+      {/* <Annotation
         subject={[2.3522, 48.8566]}
         dx={-90}
         dy={-30}
         connectorProps={{
-          stroke: "#FF5533",
-          strokeWidth: 3,
+          stroke: "#FFFF",
+          strokeWidth: 1,
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#F53">
-          {"Paris"}
+        
+        <text x="4" textAnchor="end" alignmentBaseline="middle" fill="#FFFF">
+          {"Toronto, Canada"}
         </text>
+        
       </Annotation>
+
+      <Annotation
+        subject={[-1.243, 20]}
+        dx={-90}
+        dy={-30}
+        connectorProps={{
+          stroke: "#FFFF",
+          strokeWidth: 1,
+          strokeLinecap: "round"
+        }}
+      >
+        <text x="-4" textAnchor="end" alignmentBaseline="middle" fill="#FFFF">
+          {"London, Canada"}
+        </text>        
+      </Annotation>
+
+      <Annotation
+        subject={[18.0, -80.0]}
+        dx={-90}
+        dy={-30}
+        connectorProps={{
+          stroke: "#FFFF",
+          strokeWidth: 1,
+          strokeLinecap: "round"
+        }}
+      >
+        <text x="-4" textAnchor="end" alignmentBaseline="middle" fill="#FFFF">
+          {"Dehli, India"}
+        </text>        
+      </Annotation>
+
+      <Annotation
+        subject={[-40.0, -10.0]}
+        dx={-90}
+        dy={-30}
+        connectorProps={{
+          stroke: "#FFFF",
+          strokeWidth: 1,
+          strokeLinecap: "round"
+        }}
+      >
+        <text x="-4" textAnchor="end" alignmentBaseline="middle" fill="#FFFF">
+          {"Buenos Aires"}
+        </text>        
+      </Annotation>
+
+      <Annotation
+        subject={[-68, -900.0]}
+        dx={-90}
+        dy={-30}
+        connectorProps={{
+          stroke: "#FFFF",
+          strokeWidth: 1,
+          strokeLinecap: "round"
+        }}
+      >
+        <text x="-4" textAnchor="end" alignmentBaseline="middle" fill="#FFFF">
+          {"Singapore"}
+        </text>        
+      </Annotation>
+
+      <Annotation
+        subject={[800.0, 200.0]}
+        dx={-90}
+        dy={-30}
+        connectorProps={{
+          stroke: "#FFFF",
+          strokeWidth: 1,
+          strokeLinecap: "round"
+        }}
+      >
+        <text x="-4" textAnchor="end" alignmentBaseline="middle" fill="#FFFF">
+          {"Tokyo, Japan"}
+        </text>        
+      </Annotation> */}
+
     </ComposableMap>
   );
 };
