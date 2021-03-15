@@ -57,11 +57,12 @@ const Devcash = ({
         >
             <div className="container">
                 <div className={innerClasses}>
+                <SectionHeader data={sectionHeader} className="center-content" />
+
                     <div className={tilesClasses}>
                         <div className="reveal-from-right" data-reveal-onScroll="500">
-                            <SectionHeader data={sectionHeader} className="center-content" />
 
-                            <Image src={require('./../../assets/images/DevcashLogo-Black.svg')}
+                            <Image src={require('./../../assets/images/DevcashLogo-Light.svg')}
                                 alt="Features tile icon 02"
                                 className="center"
                                 width={300}
