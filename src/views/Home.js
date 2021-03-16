@@ -12,8 +12,9 @@ const Home = () => {
 
   return (
     <>
-      <Map />
+     
       <Hero className="illustration-section-01" />
+      <Map />
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
       <About topDivider /> 
       <FeaturesTiles /> 

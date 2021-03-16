@@ -21,12 +21,12 @@ const MapChart = () => {
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
         rotate: [-4.0, -8.0, 0],
-        scale: 90
+        scale: 140
       }}
     >
       <Geographies
         geography={geoUrl}
-        fill="#3366cc"
+        fill="#645cfc"
         stroke="#645cfc"
         strokeWidth={0.5}
       >
@@ -36,6 +36,7 @@ const MapChart = () => {
           ))
         }
       </Geographies>
+      {/* TODO: Do Annotations better */}
       {/* <Annotation
         subject={[2.3522, 48.8566]}
         dx={-90}
