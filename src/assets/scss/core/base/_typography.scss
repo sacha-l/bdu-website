@@ -16,8 +16,8 @@ textarea {
 	@include font-weight(base);
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h5, h6,
+.h1, .h2, .h3, .h5, .h6 {
 	@include font-family(heading);
 	@include font-weight(heading);
 	clear: both;
@@ -44,6 +44,12 @@ h3,
 h4,
 .h4 {
 	@include font-size(h4);
+	@include font-family(heading);
+	@include font-weight(heading);
+	clear: both;
+	color: #f9f9f9;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 h5,

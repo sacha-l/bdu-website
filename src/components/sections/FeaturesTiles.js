@@ -67,9 +67,9 @@ const FeaturesTiles = ({
                 </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h3 className="mt-0 mb-8">
                     Toronto, ON
-                    </h4>
+                    </h3>
                   <p className="m-0 text-sm">
                     <a href="https://www.meetup.com/Blockchain-Developers-Canada/" >Join Meetup. </a>
                   </p>
@@ -85,9 +85,9 @@ const FeaturesTiles = ({
                 </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h3 className="mt-0 mb-8">
                     Sacremento, CA
-                    </h4>
+                    </h3>
                   
                     <p className="m-0 text-sm">
                     <a href=" https://www.meetup.com/Sacramento-Blockchain/" >Join Meetup. </a>
@@ -104,9 +104,9 @@ const FeaturesTiles = ({
                 </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h3 className="mt-0 mb-8">
                     Singapore, SG
-                    </h4>
+                    </h3>
                     <p className="m-0 text-sm">
                     <a href=" https://www.meetup.com/Blockchain-Developers-United-Singapore/" >Join Meetup. </a>
                   </p>
@@ -122,9 +122,9 @@ const FeaturesTiles = ({
                 </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h3 className="mt-0 mb-8">
                     Tampa Bay, FL
-                    </h4>
+                    </h3>
                     <p className="m-0 text-sm">
                     <a href="https://www.meetup.com/Tampa-Bay-Blockchain-Developers-Meetup/" >Join Meetup. </a>
                   </p>

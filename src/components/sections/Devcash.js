@@ -62,7 +62,7 @@ const Devcash = ({
                     <div className={tilesClasses}>
                         <div className="reveal-from-right" data-reveal-onScroll="500">
 
-                            <Image src={require('./../../assets/images/DevcashLogo-Light.svg')}
+                            <Image src={require('./../../assets/images/DevcashLogo-Vertical-Dark.svg')}
                                 alt="Features tile icon 02"
                                 className="center"
                                 width={300}
@@ -94,7 +94,7 @@ const Devcash = ({
                                     {/* TODO: Update image to logo */}
 
                                     <Image
-                                        src={require('./../../assets/images/DevcashLogo-Vertical-Dark.svg')}
+                                        src={require('./../../assets/images/DevcashLogo-Light.svg')}
                                         alt="Features tile icon 02"
                                         width={80}
                                         height={80} />
