@@ -1,8 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -106,7 +108,6 @@ const Header = ({
                     isActive && 'is-active'
                   )}>
 
-                {/* TODO: Fix routing here */}
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
@@ -114,20 +115,23 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#meetups" onClick={closeMenu}>Meetups</Link>
+                      <Link to="#about" onClick={closeMenu}>About Us</Link>
                     </li>
                     <li>
                       <Link to="#devcash" onClick={closeMenu}>Devcash</Link>
                     </li>
                     <li>
-                      <Link to="#learnandearn" onClick={closeMenu}>Learn and Earn</Link>
+                      <Link to="#meetups" onClick={closeMenu}>Meetups</Link>
                     </li>
                     <li>
-                      <Link to="#events" onClick={closeMenu}>Past Events</Link>
+                      <a href="//bdu.dev/"> Bounty Platform</a>
+                    </li>
+                    {/* <li>
+                      <a href="//earn-2-learn.netlify.app/"> Learn and Earn</a>
                     </li>
                     <li>
-                      <Link to="https://medium.com/blockchainedu/ben-and-bdu-unite-to-provide-more-resources-for-blockchain-developers-a49a68cb9d15" onClick={closeMenu}>Press</Link>
-                    </li>
+                      <a href="//medium.com/blockchainedu/ben-and-bdu-unite-to-provide-more-resources-for-blockchain-developers-a49a68cb9d15" onClick={closeMenu}>Press</a>
+                    </li> */}
                   </ul>
                   {!hideSignin &&
                     <ul

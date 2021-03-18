@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import Button from '../elements/Button';
+import ButtonGroup from '../elements/ButtonGroup';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -11,7 +13,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
-const FeaturesTiles = ({
+const Meetups = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -45,7 +47,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'BDU Meetup Network',
-    paragraph: 'Discover events in your timezone or location. Get networking with fellow BDU members. Join a BDU community or apply to create your own. 🚀'
+    paragraph: 'Discover events in your timezone or location. Get networking with fellow BDU members. Join a BDU community or create your own. 🚀'
 
   };
 
@@ -54,17 +56,16 @@ const FeaturesTiles = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div id="meetups" className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          
-          <div className={tilesClasses}>
 
+          <div className={tilesClasses}>
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                </div>
+                  </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
@@ -73,7 +74,7 @@ const FeaturesTiles = ({
                   <p className="m-0 text-sm">
                     <a href="https://www.meetup.com/Blockchain-Developers-Canada/" >Join Meetup. </a>
                   </p>
-                <p>🌐</p>
+                  <p>🌐</p>
                 </div>
               </div>
             </div>
@@ -82,17 +83,17 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                </div>
+                  </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Sacremento, CA
                     </h4>
-                  
-                    <p className="m-0 text-sm">
+
+                  <p className="m-0 text-sm">
                     <a href=" https://www.meetup.com/Sacramento-Blockchain/" >Join Meetup. </a>
                   </p>
-                <p>🌐</p>
+                  <p>🌐</p>
                 </div>
               </div>
             </div>
@@ -101,16 +102,16 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                </div>
+                  </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Singapore, SG
                     </h4>
-                    <p className="m-0 text-sm">
+                  <p className="m-0 text-sm">
                     <a href=" https://www.meetup.com/Blockchain-Developers-United-Singapore/" >Join Meetup. </a>
                   </p>
-                <p>🌐</p>
+                  <p>🌐</p>
                 </div>
               </div>
             </div>
@@ -119,16 +120,28 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                </div>
+                  </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
                     Tampa Bay, FL
                     </h4>
-                    <p className="m-0 text-sm">
+                  <p className="m-0 text-sm">
                     <a href="https://www.meetup.com/Tampa-Bay-Blockchain-Developers-Meetup/" >Join Meetup. </a>
                   </p>
-                <p>🌐</p>
+                  <p>🌐</p>
+                </div>
+              </div>
+            </div>
+            {/* TODO: Add Create your own button */}
+            <div className="center-content" >
+              <div className={innerClasses}>
+                <div className="container-xs">
+                  <div className="reveal-from-bottom" data-reveal-delay="50">
+                    <Button tag="a" color="dark" wideMobile href="">
+                      Apply to Create Your Own
+                  </Button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -244,13 +257,16 @@ const FeaturesTiles = ({
             </div> */}
 
           </div>
+
         </div>
+
       </div>
+
     </section>
   );
 }
 
-FeaturesTiles.propTypes = propTypes;
-FeaturesTiles.defaultProps = defaultProps;
+Meetups.propTypes = propTypes;
+Meetups.defaultProps = defaultProps;
 
-export default FeaturesTiles;
+export default Meetups;

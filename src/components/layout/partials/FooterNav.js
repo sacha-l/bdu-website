@@ -20,20 +20,23 @@ const FooterNav = ({
       <ul className="list-reset">
         <li>
            {/* TODO: Update link here*/}
-          <a href="https://t.me/joinchat/GbOgYo4HHeZNzyBM">Join the Community</a>
+          <a href="https://t.me/joinchat/GbOgYo4HHeZNzyBM">Telegram</a>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+          <Link to="#0">Discord</Link>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
+          <Link to="#0">Whatsapp</Link>
         </li>
         <li>
-          <Link to="#0">Support</Link>
+          <Link to="#0">Email</Link>
+        </li>
+        <li>
+          <Link to="#hero">Litepaper</Link>
         </li>
       </ul>
     </nav>
-  );
+  );  
 }
 
 export default FooterNav;
