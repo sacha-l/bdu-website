@@ -124,11 +124,14 @@ const Header = ({
                       <Link to="#meetups" onClick={closeMenu}>Meetups</Link>
                     </li>
                     <li>
+                      <a href="//bdu.dev/"> Bounty Platform</a>
+                    </li>
+                    {/* <li>
                       <a href="//earn-2-learn.netlify.app/"> Learn and Earn</a>
                     </li>
                     <li>
                       <a href="//medium.com/blockchainedu/ben-and-bdu-unite-to-provide-more-resources-for-blockchain-developers-a49a68cb9d15" onClick={closeMenu}>Press</a>
-                    </li>
+                    </li> */}
                   </ul>
                   {!hideSignin &&
                     <ul

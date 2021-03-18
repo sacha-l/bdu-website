@@ -35,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -66,7 +66,7 @@ const Hero = ({
 
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="140">
-              BDU is a decentralized network of blockchain developer communities aiming to bring blockchain developers of all skill levels to train, share resources and collaborate together.
+                BDU is a decentralized network of blockchain developer communities aiming to bring blockchain developers of all skill levels to train, share resources and collaborate together.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="1000">
                 <ButtonGroup>
@@ -80,9 +80,7 @@ const Hero = ({
               </div>
             </div>
           </div>
-         <div> <br/> </div>
-         
-    
+          <div> <br /> </div>
         </div>
       </div>
     </section>

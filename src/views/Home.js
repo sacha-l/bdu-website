@@ -1,8 +1,8 @@
 import React from 'react';
 // import sections
 import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
-import FeaturesSplit from '../components/sections/FeaturesSplit';
+import Meetups from '../components/sections/Meetups';
+import Events from '../components/sections/Events';
 import About from '../components/sections/About';
 import Cta from '../components/sections/Cta';
 import Devcash from '../components/sections/Devcash';
@@ -18,10 +18,10 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <HashLinkObserver />
       <Map />
-      {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
       <About topDivider /> 
-      <FeaturesTiles /> 
+      <Meetups /> 
       <Devcash />
+      <Events invertMobile topDivider imageFill className="illustration-section-02" />
       {/* <Cta split />  */}
     </>
   );
