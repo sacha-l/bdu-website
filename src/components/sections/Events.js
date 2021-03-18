@@ -12,7 +12,7 @@ const defaultProps = {
   ...SectionSplitProps.defaults
 }
 
-const FeaturesSplit = ({
+const Events = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -50,10 +50,23 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Upcoming Events',
   };
 
+  // Hard code events here for now
+  const event1 = {
+    title: 'Create your own NFT project on Ethereum - Part 1 (Smart Contracts)',
+    date: 'Sunday, March 28, 2021 2:00 PM to 4:00 PM EDT',
+    descr: 'This is a hands on workshop on how to create your own NFT project on Ethereum! This event is part 1 of 2, and will be about deploying your NFT smart contracts. Join us and learn how to deploy an ERC721 token and test it out.',
+    url: 'https://www.meetup.com/Blockchain-Developers-Canada/events/276961197/'
+  }
+
+  const event2 = {
+    title: 'Create your own NFT project on Ethereum - Part 1 (Smart Contracts)',
+    date: 'Sunday, March 28, 2021 2:00 PM to 4:00 PM EDT',
+    url: 'https://www.meetup.com/Blockchain-Developers-Canada/events/276961197/'
+  }
+  
   return (
     <section
       {...props}
@@ -66,15 +79,32 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+              <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  <section >
+                   {event1.date}
+                 </section>
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                 <section >
+                   {event1.title}
+                 </section>
                   </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  
+                  <p>
+                  <section >
+                   {event1.descr} 
+                 </section>
+                 </p>
+
+                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  <section >
+                  <a href={event1.url}> RSVP (Blockchain Developers Canada)</a>
+
+                 </section>
+                  </div>
+                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                 </div>
+
               </div>
               <div className={
                 classNames(
@@ -82,15 +112,16 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
+                  {/* TODO: Need better image! */}
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/bdu_meetup.jpeg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
               </div>
             </div>
 
-            <div className="split-item">
+            {/* <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Lightning fast workflow
@@ -140,7 +171,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
@@ -149,7 +180,7 @@ const FeaturesSplit = ({
   );
 }
 
-FeaturesSplit.propTypes = propTypes;
-FeaturesSplit.defaultProps = defaultProps;
+Events.propTypes = propTypes;
+Events.defaultProps = defaultProps;
 
-export default FeaturesSplit;
+export default Events;
