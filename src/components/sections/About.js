@@ -55,7 +55,7 @@ const About = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div id="about" className="container">
         <div className={innerClasses}>
           <div className="reveal-from-right" data-reveal-onScroll="500">
             <SectionHeader data={sectionHeader} className="center-content" />

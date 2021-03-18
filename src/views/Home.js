@@ -7,6 +7,8 @@ import About from '../components/sections/About';
 import Cta from '../components/sections/Cta';
 import Devcash from '../components/sections/Devcash';
 import Map from '../components/sections/Map';
+import HashLinkObserver from "react-hash-link";
+
 
 const Home = () => {
 
@@ -14,6 +16,7 @@ const Home = () => {
     <>
      
       <Hero className="illustration-section-01" />
+      <HashLinkObserver />
       <Map />
       {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
       <About topDivider /> 
