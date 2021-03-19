@@ -98,7 +98,7 @@ const About = ({
                       <h4 className="mt-0 mb-8">
                         Our Mission
                     </h4>
-                      <p className="m-0 text-sm">
+                      <p className="m-0 text-sm color">
                         BDU’s mission is to pursue the interests of its member communities. train new developers, and to promote deep collaboration between developer communities.
                   </p>
                     </div>
@@ -116,7 +116,7 @@ const About = ({
                       <h4 className="mt-0 mb-8">
                         Open Governance
                     </h4>
-                      <p className="m-0 text-sm">
+                      <p className="m-0 text-sm color">
                         BDU membership requirements and rules for new communities are determined by existing member communities. The requirements and rules are updated dynamically by the collective decision making of community organizers to reflect community needs and the overall state of the blockchain ecosystem.
                   </p>
                     </div>
@@ -134,7 +134,7 @@ const About = ({
                       <h4 className="mt-0 mb-8">
                         Free Education
                     </h4>
-                      <p className="m-0 text-sm">
+                      <p className="m-0 text-sm color">
                         <li>
                           To provide shared access to developer resources
                     </li>
@@ -157,7 +157,7 @@ const About = ({
                       <h4 className="mt-0 mb-8">
                         Community
                     </h4>
-                      <p className="m-0 text-sm">
+                      <p className="m-0 text-sm color">
                         <li>
                           Train local blockchain developer talent
                     </li>

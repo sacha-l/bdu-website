@@ -47,7 +47,7 @@ h4,
 	@include font-family(heading);
 	@include font-weight(heading);
 	clear: both;
-	color: #f9f9f9;
+	color: get-color(primary,1);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
@@ -121,9 +121,21 @@ h4, h5, h6,
 	margin-bottom: $spacing--hx-b;
 }
 
+strong {
+	margin-top: 0;
+	margin-bottom: $spacing--shared-v;
+	color: get-color(primary,2);
+}
+
+.color {
+	margin-top: 0;
+	margin-bottom: $spacing--shared-v;
+	color: get-color(light,1);
+}
 p {
 	margin-top: 0;
 	margin-bottom: $spacing--shared-v;
+	color: get-color(light,3);
 }
 
 dfn, cite, em, i {

@@ -6,7 +6,6 @@ import Events from '../components/sections/Events';
 import About from '../components/sections/About';
 import Cta from '../components/sections/Cta';
 import Devcash from '../components/sections/Devcash';
-import Map from '../components/sections/Map';
 import HashLinkObserver from "react-hash-link";
 
 
@@ -17,7 +16,6 @@ const Home = () => {
      
       <Hero className="illustration-section-01" />
       <HashLinkObserver />
-      <Map />
       <About topDivider /> 
       <Meetups /> 
       <Devcash />
