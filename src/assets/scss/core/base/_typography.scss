@@ -113,6 +113,7 @@ h3,
 .h3 {
 	margin-top: $spacing--h3-t;
 	margin-bottom: $spacing--h3-b;
+	
 }
 
 h4, h5, h6,
@@ -124,7 +125,7 @@ h4, h5, h6,
 strong {
 	margin-top: 0;
 	margin-bottom: $spacing--shared-v;
-	color: get-color(primary,2);
+	color: get-color(primary,1);
 }
 
 .color {
