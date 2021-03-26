@@ -62,62 +62,66 @@ const Devcash = ({
                     <div className={tilesClasses}>
                         <div className="reveal-from-right" data-reveal-onScroll="100">
 
-                            <Image src={require('./../../assets/images/DevcashLogo-Light.svg')}
+                            <Image src={require('./../../assets/images/DevcashLogo-Vertical-Dark.svg')}
                                 alt="Features tile icon 02"
                                 className="center"
                                 width={300}
                                 height={100} />
-
+                           <div>
                             <div className="container">
                                 <div className={innerClasses}>
                                     <div className={tilesClasses}>
                                         <div className="tiles-item reveal-from-bottom" data-reveal-delay="50">
                                             <div className="tiles-item-inner">
-                                                <p className="text-xs mb-">
+                                                <p className="color text-xs mb-">
                                                     High gas fees on <strong>Ethereum</strong> means that the majority of Devcash transactions are far too expensive to carry out on Ethereum Mainnet. </p>
-                                                <p className="text-xs mb-">
+                                                <p className="color text-xs mb-">
                                                     Therefore, BDU has set up Devcash and related apps on a Layer 2 network &mdash; <a href="https://blockscout.com/xdai/mainnet/address/0x248E081e3C9e738D7C1ded5d471069dcf4Fd9B15/transactions"> <strong>xDai</strong> (view Contract on Blockscout).</a>
                                                 </p>
 
-                                                <p className="text-xs mb-">✓ Devcash has been bridged to xDAI STAKE using the xDai omni bridge  </p>
-                                                <p className="text-xs mb-"> ✓ The Devcash bounty platform has been deployed on xDai </p>
+                                                <p className="color text-xs mb-">✓ Devcash has been bridged to xDAI STAKE using the xDai omni bridge  </p>
+                                                <p className="color text-xs mb-"> ✓ The Devcash bounty platform has been deployed on xDai </p>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                           </div>
 
                         </div>
                         <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+                           <div className={outerClasses}>
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
 
                                     {/* TODO: Update image to logo */}
 
                                     <Image
-                                        src={require('./../../assets/images/DevcashLogo-Vertical-Dark.svg')}
+                                        src={require('./../../assets/images/DevcashLogo-Light.svg')}
                                         alt="Features tile icon 02"
-                                        width={80}
-                                        height={80} />
+                                        width={100}
+                                        height={100} />
                                     <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider" />
 
                                 </div>
 
-                                <p className="text-xs mb-">
+                                <p className="color text-xs mb-">
                                     <strong>Symbol:</strong> DCASH
-                            </p>
-                                <p className="text-xs mb-">
+                                </p>
+                                <p className="color text-xs mb-">
                                     <strong>Decimals:</strong> 8
-                            </p>
+                                </p>
 
-                                <p className="text-xs mb-">
+                                <p className="color text-xs mb-">
                                     <strong>Usage:</strong> To reward BDU community growth and developement initiatives.
                                 </p>
 
-                                <p className="text-xs mb-">
-                                <strong>Total supply:</strong> 2,100,000,000                                 </p>
-                                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                                <p className="color text-xs mb-">
+                                <strong>Total supply:</strong> 2,100,000,000                                 
+                                </p>
+                                <hr />
+                                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
                                     <span className="testimonial-item-name text-color-high">
 
                                         <a href="https://etherscan.io/token/0x0fca8fdb0fb115a33baadec6e7a141ffc1bc7d5a"> DCASH / Native ERC20 Token</a>
@@ -126,11 +130,21 @@ const Devcash = ({
                                     <p></p>
                                     <span className="testimonial-item-link">
                                         <a href="https://etherscan.io/address/0x0fca8fdb0fb115a33baadec6e7a141ffc1bc7d5a">View Contract on Etherscan</a>
-                                    </span>                               
+                                    </span> 
 
                                 </div>
+                                <div>
+                                <Image src={require('./../../assets/images/etherscan-logo-circle.svg')}
+                                    alt="Features tile icon 03"
+                                    width={200}
+                                    height={200}
+                                    className="etherscan" />
+                                <p className="center-content">Powered by Etherscan</p>
+                                </div>                               
+
 
                             </div>
+                          </div> 
                         </div>
                     </div>
 

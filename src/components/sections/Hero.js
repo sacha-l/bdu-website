@@ -4,6 +4,7 @@ import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import "../styles.css";
+import MapChart from '.././react-simple-maps-master/MeetupMap/MapChart'
 
 
 const propTypes = {
@@ -63,12 +64,15 @@ const Hero = ({
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="140">
               Blockchain Developers United
             </h1>
+            <div className="reveal-from-bottom" data-reveal-delay="1000">
+                <MapChart />        
+            </div>
 
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="140">
                 BDU is a decentralized network of blockchain developer communities aiming to bring blockchain developers of all skill levels to train, share resources and collaborate together.
               </p>
-              <div className="reveal-from-bottom" data-reveal-delay="2000">
+              <div className="reveal-from-bottom" data-reveal-delay="800">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="">
                     Join Community

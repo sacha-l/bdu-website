@@ -67,15 +67,16 @@ const Meetups = ({
                   <div className="features-tiles-item-image mb-16">
                   </div>
                 </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                <h3 className="mt-0 mb-8">
                     Toronto, ON
-                    </h4>
-                  <p className="m-0 text-sm">
+                    </h3>
+                <div className="features-tiles-item-content toronto">
+                  
+                </div>
+                <p className="m-0 text-sm">
                     <a href="https://www.meetup.com/Blockchain-Developers-Canada/" >Join Meetup. </a>
                   </p>
                   <p>🌐</p>
-                </div>
               </div>
             </div>
 
@@ -85,34 +86,16 @@ const Meetups = ({
                   <div className="features-tiles-item-image mb-16">
                   </div>
                 </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Sacremento, CA
-                    </h4>
-
-                  <p className="m-0 text-sm">
-                    <a href=" https://www.meetup.com/Sacramento-Blockchain/" >Join Meetup. </a>
-                  </p>
-                  <p>🌐</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                <h3 className="mt-0 mb-8">
                     Singapore, SG
-                    </h4>
-                  <p className="m-0 text-sm">
-                    <a href=" https://www.meetup.com/Blockchain-Developers-United-Singapore/" >Join Meetup. </a>
+                    </h3>
+                <div className="features-tiles-item-content singapore">
+                 
+                </div>
+                <p className="m-0 text-sm">
+                    <a href="https://www.meetup.com/Government-Blockchain-Singapore/" >Join Meetup. </a>
                   </p>
                   <p>🌐</p>
-                </div>
               </div>
             </div>
 
@@ -122,17 +105,77 @@ const Meetups = ({
                   <div className="features-tiles-item-image mb-16">
                   </div>
                 </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                <h3 className="mt-0 mb-8">
+                    Paris, PA
+                    </h3>
+                <div className="features-tiles-item-content paris">
+
+                </div>
+                <p className="m-0 text-sm">
+                    <a href="https://www.meetup.com/Meetup-Blockchain-Paris/" >Join Meetup. </a>
+                  </p>
+                  <p>🌐</p>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                  </div>
+                </div>
+                <h3 className="mt-0 mb-8">
                     Tampa Bay, FL
-                    </h4>
-                  <p className="m-0 text-sm">
+                    </h3>
+                <div className="features-tiles-item-content tampa">
+                  
+              </div>
+              <p className="m-0 text-sm">
                     <a href="https://www.meetup.com/Tampa-Bay-Blockchain-Developers-Meetup/" >Join Meetup. </a>
                   </p>
                   <p>🌐</p>
+             </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                  </div>
                 </div>
+                <h3 className="mt-0 mb-8">
+                    Berlin, BER
+                    </h3>
+                <div className="features-tiles-item-content berlin">
+
+                </div>
+                <p className="m-0 text-sm">
+                    <a href="https://www.meetup.com/Blockchain4GoodBerlin/" >Join Meetup. </a>
+                  </p>
+                  <p>🌐</p>
               </div>
             </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                  </div>
+                </div>
+                <h3 className="mt-0 mb-8">
+                    San Francisco, SF
+                    </h3>
+                <div className="features-tiles-item-content sanFrancisco">
+
+                </div>
+                <p className="m-0 text-sm">
+                    <a href="https://www.meetup.com/SF-Bitcoin-And-Blockchain-Social/" >Join Meetup. </a>
+                  </p>
+                  <p>🌐</p>
+              </div>
+            </div>
+
+            <br></br>
             {/* TODO: Add Create your own button */}
             <div className="center-content" >
               <div className={innerClasses}>
@@ -261,6 +304,7 @@ const Meetups = ({
         </div>
 
       </div>
+
 
     </section>
   );

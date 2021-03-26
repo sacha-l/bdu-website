@@ -77,6 +77,7 @@ video {
 	max-width: 100%; /* Adhere to container width. */
 }
 
+
 figure {
 	margin: $spacing--figure-v $spacing--figure-h; /* Extra wide images within figure tags don't overflow the content area. */
 }
@@ -125,3 +126,60 @@ td {
 		border-bottom: 1px solid color-border(divider-inverse);
 	}
 }
+
+.etherscan {
+	display: block;
+	margin: 0 auto;
+    padding-bottom: 20px;
+	padding-top: 65px;
+	
+}
+hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #ccc;
+		margin: 1em 0;
+		padding: 0;
+	}
+	.toronto {
+		background-image: url('../../../images/torontskyline.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 70px;
+	}
+	
+	.singapore {
+		background-image: url('../../../images/singapore-skyline.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 70px;
+	}
+
+	.tampa {
+		background-image: url('../../../images/tampa-florida-skyline.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 60px;
+	}
+
+	.paris {
+		background-image: url('../../../images/paris-skyline.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 70px;
+	}
+
+	.berlin {
+		background-image: url('../../../images/berlin-skyline.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 60px;
+	}
+	.sanFrancisco {
+		background-image: url('../../../images/San-Francisco-Skyline-2016011246.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 60px;
+	}
+	

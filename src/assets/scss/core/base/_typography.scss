@@ -16,8 +16,8 @@ textarea {
 	@include font-weight(base);
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h5, h6,
+.h1, .h2, .h3, .h5, .h6 {
 	@include font-family(heading);
 	@include font-weight(heading);
 	clear: both;
@@ -44,6 +44,12 @@ h3,
 h4,
 .h4 {
 	@include font-size(h4);
+	@include font-family(heading);
+	@include font-weight(heading);
+	clear: both;
+	color: get-color(primary,1);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 h5,
@@ -107,6 +113,7 @@ h3,
 .h3 {
 	margin-top: $spacing--h3-t;
 	margin-bottom: $spacing--h3-b;
+	
 }
 
 h4, h5, h6,
@@ -115,9 +122,21 @@ h4, h5, h6,
 	margin-bottom: $spacing--hx-b;
 }
 
+strong {
+	margin-top: 0;
+	margin-bottom: $spacing--shared-v;
+	color: get-color(primary,1);
+}
+
+.color {
+	margin-top: 0;
+	margin-bottom: $spacing--shared-v;
+	color: get-color(light,1);
+}
 p {
 	margin-top: 0;
 	margin-bottom: $spacing--shared-v;
+	color: get-color(light,3);
 }
 
 dfn, cite, em, i {
