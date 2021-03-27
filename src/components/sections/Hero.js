@@ -77,8 +77,8 @@ const Hero = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="800">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="">
-                    Join Community
+                  <Button tag="a" color="primary" wideMobile href="#events">
+                    Join Events
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://docs.google.com/document/d/1sfbVBag7XI0dN3Wz-gMWJzAjse8KgJLZ71XtHEGk5Yk/edit?usp=sharing">
                     Read Litepaper

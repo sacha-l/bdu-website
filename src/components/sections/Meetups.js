@@ -5,6 +5,7 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import Button from '../elements/Button';
 import ButtonGroup from '../elements/ButtonGroup';
+import Logo from '../layout/partials/Logo';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -48,7 +49,6 @@ const Meetups = ({
   const sectionHeader = {
     title: 'BDU Meetup Network',
     paragraph: 'Discover events in your timezone or location. Get networking with fellow BDU members. Join a BDU community or create your own. 🚀'
-
   };
 
   return (
@@ -59,7 +59,9 @@ const Meetups = ({
       <div id="meetups" className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-
+           <div className="center-content"> 
+            <Logo/>
+          </div>
           <div className={tilesClasses}>
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
