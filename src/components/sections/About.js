@@ -56,10 +56,9 @@ const About = ({
       className={outerClasses}
     >
       <div id="about" className="container">
-        <div className={innerClasses}>
-          <div className="reveal-from-right" data-reveal-onScroll="500">
+          {/* <div className="reveal-from-right" data-reveal-onScroll="500">
             <SectionHeader data={sectionHeader} className="center-content" />
-          </div>
+          </div> */}
           
           {/* 
           {/* alternative option tiles 
@@ -96,11 +95,22 @@ const About = ({
                     </div>
                     <div className="features-tiles-item-content">
                       <h4 className="mt-0 mb-8">
-                        Our Mission
+                        Our Mission 🚀
                     </h4>
                       <p className="m-0 text-sm color">
-                        BDU’s mission is to pursue the interests of its member communities. train new developers, and to promote deep collaboration between developer communities.
-                  </p>
+                      BDU’s mission is to pursue the objectives of its member communities. These are:
+                      <ul>
+                        <li>
+                        to train new developers;
+                        </li>
+                        <li>
+                        to facilitate resource sharing;
+                        </li>
+                        <li>
+                        to create collaboration opportunities between developer communities.
+                        </li>
+                        </ul>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -114,10 +124,10 @@ const About = ({
                     </div>
                     <div className="features-tiles-item-content">
                       <h4 className="mt-0 mb-8">
-                        Open Governance
+                        Open Governance 🏛️
                     </h4>
                       <p className="m-0 text-sm color">
-                        BDU membership requirements and rules for new communities are determined by existing member communities. The requirements and rules are updated dynamically by the collective decision making of community organizers to reflect community needs and the overall state of the blockchain ecosystem.
+                      BDU membership requirements and rules are determined by collective decision making of the existing BDU communities. 
                   </p>
                     </div>
                   </div>
@@ -132,15 +142,11 @@ const About = ({
                     </div>
                     <div className="features-tiles-item-content">
                       <h4 className="mt-0 mb-8">
-                        Free Education
+                        Education 🎓
                     </h4>
                       <p className="m-0 text-sm color">
-                        <li>
-                          To provide shared access to developer resources
-                    </li>
-                        <li>
-                          To provide hands on developer training
-                    </li>
+                      BDU prioritizes hands-on developer skills and provides hands-on developer training as much as possible. 
+                      BDU also provides learn & earn programs to soften the learning curve and motivate new developers.
                       </p>
                     </div>
                   </div>
@@ -155,30 +161,53 @@ const About = ({
                     </div>
                     <div className="features-tiles-item-content">
                       <h4 className="mt-0 mb-8">
-                        Community
+                        Community 🧑‍🤝‍🧑
                     </h4>
                       <p className="m-0 text-sm color">
+                      BDU supports local developer community building. 
+                      BDU’s community goals, strengthening organic community growth:
                         <li>
-                          Train local blockchain developer talent
+                        training local blockchain developer talent;
                     </li>
                         <li>
-                          Collaborate on projects small and large
+                        sharing dev resources;
                     </li>
                         <li>
-                          Provide community testing and debugging
+                        cooperating on large projects.
                     </li>
+                    Communities working together further magnify the effects of community building.
                       </p>
                     </div>
                   </div>
                 </div>
 
+                 {/*Tile #5 */}
+                 <div className="tiles-item reveal-from-bottom">
+                  <div className="tiles-item-inner">
+                    <div className="features-tiles-item-header">
+                      <div className="features-tiles-item-image mb-16">
+                      </div>
+                    </div>
+                    <div className="features-tiles-item-content">
+                      <h4 className="mt-0 mb-8">
+                        DevCash 💸
+                      </h4>
+                      <p className="m-0 text-sm color">
+                      BDU’s cryptocurrency is called Devcash. We dub devcash “cash for the developer economy”. 
+                      </p>
+                      <p className="m-0 text-sm color">
+                      Devcash is used to incentivize developers to build for BDU, and holders benefit by accessing BDU resources. 
+                      The Initial Bounty Offering (IBO) is currently underway on our Bounty Platform! You can earn DevCash by completing BDU bounties!
+                      </p>
 
+                    </div>
+                  </div>
+                </div>
 
               </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }

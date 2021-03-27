@@ -26,7 +26,7 @@ const MapChart = () => {
     >
       <Geographies
         geography={geoUrl}
-        fill="#000000"
+        fill="#3366cc"
         stroke="#f9f9f9"
         strokeWidth={0.5}
       >

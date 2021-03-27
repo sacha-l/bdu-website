@@ -181,7 +181,7 @@ const Meetups = ({
               <div className={innerClasses}>
                 <div className="container-xs">
                   <div className="reveal-from-bottom" data-reveal-delay="50">
-                    <Button tag="a" color="dark" wideMobile href="">
+                    <Button tag="a" color="dark" wideMobile href="https://alexanderlansky.typeform.com/to/oA4zzeus">
                       Apply to Create Your Own
                   </Button>
                   </div>

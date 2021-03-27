@@ -70,7 +70,10 @@ const Hero = ({
 
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="140">
-                BDU is a decentralized network of blockchain developer communities aiming to bring blockchain developers of all skill levels to train, share resources and collaborate together.
+              BDU is a decentralized autonomous network of developer community groups, located anywhere in the world. Unbound by in-person constraints, we aim to bring blockchain developers of all skill levels together to train, share resources and build in developer teams.               
+              </p>
+              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="140">
+              Join an upcoming community event, now, where all the magic happens. Or read more about BDU below.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="800">
                 <ButtonGroup>

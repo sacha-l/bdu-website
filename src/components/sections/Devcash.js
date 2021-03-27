@@ -46,7 +46,8 @@ const Devcash = ({
 
     const sectionHeader = {
         title: 'What is Devcash?',
-        paragraph: 'Devcash is an ERC20 token on Ethereum. It is designed to bolster community initiatives, bringing developers together to work on projects while encouraging their growth.',
+        paragraph: 'Devcash is BDU’s native cryptocurrency and economic engine.',
+        //paragraph: 'Devcash is an ERC20 token on Ethereum. It is designed to bolster community initiatives, bringing developers together to work on projects while encouraging their growth.',
     };
 
     return (
@@ -58,45 +59,63 @@ const Devcash = ({
             <div id="devcash" className="container">
                 <div className={innerClasses}>
                     <SectionHeader data={sectionHeader} className="center-content" />
+                    <div className="container-xs">
+                    <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="140">
+                    <ul>
+                        <li>
+                        The Devcash IBO is live! Click <u><a href="//devcash.xyz">here</a></u> to participate. 
+                        </li>
+                    </ul>
+                    <li> 
+                    Devcash began as an ERC20 token on Ethereum, and is being extended to other chains. 
+                    </li>
+                    <li>
+                    The primary way to earn and use devcash is with the devcash bounty platform. 
+                    </li>
+                    </p>
+                    The IBO is Devcash’s initial distribution and labour crowdsourcing event. 
+
+                    IBO stands for Initial Bounty Offering. The IBO is a twist on the ICO model, where rather than investing money, you invest your time and skills. 
+           
+                    Learn more about the IBO by <u><a href="https://docs.google.com/document/d/1sfbVBag7XI0dN3Wz-gMWJzAjse8KgJLZ71XtHEGk5Yk/edit?usp=sharing">reading the Litepaper</a></u>. 
+           <p className="m-0 mb-32"></p>
+
+                </div>
+
+
+
 
                     <div className={tilesClasses}>
-                        <div className="reveal-from-right" data-reveal-onScroll="100">
+                        <div className="center-content" data-reveal-onScroll="100">
 
                             <Image src={require('./../../assets/images/DevcashLogo-Vertical-Dark.svg')}
                                 alt="Features tile icon 02"
                                 className="center"
-                                width={300}
-                                height={100} />
-                           <div>
-                            <div className="container">
-                                <div className={innerClasses}>
+                                width={200}
+                                height={100} 
+                            />
+                                        
                                     <div className={tilesClasses}>
                                         <div className="tiles-item reveal-from-bottom" data-reveal-delay="50">
+                                            <p></p>
+                                            <p>
+                                            The Devcash bounty platform is the backbone of the Devcash economy. Users can post bounties in either Devcash or ETH/XDAI and earn rewards by hunting them. 
+                                            </p>
                                             <div className="tiles-item-inner">
                                                 <p className="color text-xs mb-">
-                                                    High gas fees on <strong>Ethereum</strong> means that the majority of Devcash transactions are far too expensive to carry out on Ethereum Mainnet. </p>
-                                                <p className="color text-xs mb-">
+                                                    High gas fees on <strong>Ethereum</strong> means that the majority of Devcash transactions are far too expensive to carry out on Ethereum Mainnet. 
                                                     Therefore, BDU has set up Devcash and related apps on a Layer 2 network &mdash; <a href="https://blockscout.com/xdai/mainnet/address/0x248E081e3C9e738D7C1ded5d471069dcf4Fd9B15/transactions"> <strong>xDai</strong> (view Contract on Blockscout).</a>
-                                                </p>
-
+                                                </p>                                                
                                                 <p className="color text-xs mb-">✓ Devcash has been bridged to xDAI STAKE using the xDai omni bridge  </p>
                                                 <p className="color text-xs mb-"> ✓ The Devcash bounty platform has been deployed on xDai </p>
                                             </div>
-
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                           </div>
-
+                                    </div>       
                         </div>
                         <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
                            <div className={outerClasses}>
                             <div className="tiles-item-inner">
                                 <div className="features-tiles-item-header">
-
-                                    {/* TODO: Update image to logo */}
-
                                     <Image
                                         src={require('./../../assets/images/DevcashLogo-Light.svg')}
                                         alt="Features tile icon 02"
@@ -136,8 +155,8 @@ const Devcash = ({
                                 <div>
                                 <Image src={require('./../../assets/images/etherscan-logo-circle.svg')}
                                     alt="Features tile icon 03"
-                                    width={200}
-                                    height={200}
+                                    width={130}
+                                    height={130}
                                     className="etherscan" />
                                 <p className="center-content">Powered by Etherscan</p>
                                 </div>                               
